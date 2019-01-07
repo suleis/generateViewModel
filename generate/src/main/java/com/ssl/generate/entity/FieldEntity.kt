@@ -1,7 +1,6 @@
 package com.ssl.generate.entity
 
 
-import com.ssl.annotation.entity.GenerateBaseEntity
 import com.ssl.generate.upperCase
 import javax.lang.model.element.TypeElement
 import javax.lang.model.element.VariableElement

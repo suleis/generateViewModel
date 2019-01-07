@@ -33,9 +33,11 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'com.android.support.test:runner:1.0.2'
     androidTestImplementation 'com.android.support.test.espresso:espresso-core:3.0.2'
-   kapt project(":generate")
-    implementation  'com.ssl.annotation:annotation:1.0.0'
+//    annotationProcessor 'com.ssl.generate:generate:1.0.0'
 
+   kapt project(":generate")
+//  implementati、on  'com.ssl.annotation:anno、tation:1.0.0'
+ implementation project(":annotation")
 
 
 }

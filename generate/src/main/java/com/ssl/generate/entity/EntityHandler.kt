@@ -1,7 +1,7 @@
 package com.ssl.generate.entity
 
 import com.squareup.javapoet.JavaFile
-import com.ssl.annotation.entity.GenerateBaseEntity
+
 import com.ssl.generate.base.BaseProcessor
 import java.util.*
 import javax.annotation.processing.Filer

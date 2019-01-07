@@ -1,6 +1,5 @@
 package com.ssl.generate.entity
 
-import com.ssl.annotation.entity.GenerateBaseEntity
 import javax.lang.model.element.ExecutableElement
 import javax.lang.model.element.TypeElement
 import javax.lang.model.element.TypeParameterElement

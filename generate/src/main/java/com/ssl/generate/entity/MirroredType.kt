@@ -1,6 +1,5 @@
 package com.ssl.generate.entity
 
-import com.ssl.annotation.entity.GenerateBaseEntity
 import javax.lang.model.element.TypeElement
 import javax.lang.model.type.DeclaredType
 import javax.lang.model.type.MirroredTypeException

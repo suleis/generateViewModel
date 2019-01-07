@@ -106,4 +106,10 @@ object TypeUtil {
         val superclass = element.superclass.toString()
         return "android.arch.lifecycle.ViewModel" == superclass || "androidx.lifecycle.ViewModel" == superclass
     }
+    fun getClassNameViewModel(): ClassName? {
+      return  ClassName.get(if (useAndroidX)
+            "androidx.lifecycle"
+        else
+            "android.arch.lifecycle", "ViewModel")
+    }
 }

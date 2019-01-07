@@ -1,7 +1,7 @@
 package com.ssl.generate.entity
 
 import com.squareup.javapoet.ClassName
-import com.ssl.annotation.entity.GenerateBaseEntity
+
 
 import javax.lang.model.element.TypeElement
 import javax.lang.model.element.TypeParameterElement

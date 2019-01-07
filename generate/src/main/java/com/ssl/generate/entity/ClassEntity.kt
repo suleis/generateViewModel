@@ -1,6 +1,5 @@
 package com.ssl.generate.entity
 
-import com.ssl.annotation.entity.GenerateBaseEntity
 import java.lang.ref.WeakReference
 import java.lang.reflect.Method
 import java.util.*
